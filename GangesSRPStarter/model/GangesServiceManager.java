@@ -8,19 +8,19 @@ import java.util.List;
 /**
  * model.Customer interface for making requests of various Ganges.com, Inc. services.
  */
-public class GangesServiceManager {
+public class GangesServiceManager extends DataStorage {
 
-    private HashMap<Integer, String> dataStorage;
-    private List<Book> books;
-    private List<BookOrder> customerBookOrders;
-    private int orderNumberCounter;
-    private int customerIdCounter;
+    protected HashMap<Integer, String> dataStorage;
+    protected List<Book> books;
+    protected List<BookOrder> customerBookOrders;
+    protected int orderNumberCounter;
+    protected int customerIdCounter;
 
     public static final int FIRST_CUSTOMER_NUMBER = 100;
     private static final int FIRST_ORDER_NUMBER = 1000;
 
     public GangesServiceManager() {
-        this.dataStorage = new HashMap<>();
+        super();
 
         this.books = new ArrayList<>();
         books.add(new Book ("A Tale of Two Gentlemen of Verona", 5.99));
@@ -88,20 +88,4 @@ public class GangesServiceManager {
         return false;
     }
 
-    // MODIFIES: this
-    // EFFECTS: Stores the given data in the cloud under this customer's account
-    public void putData(Customer c, String data) {
-        dataStorage.put(c.getUniqueId(), data);
-    }
-
-    // Returns the given customer's data from the cloud
-    public String getData(Customer c) {
-        return dataStorage.get(c.getUniqueId());
-    }
-
-    // MODIFIES: this
-    // EFFECTS: Deletes this customer's data from the cloud
-    public String deleteData(Customer c) {
-        return dataStorage.remove(c.getUniqueId());
-    }
 }
