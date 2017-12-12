@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d257cc8a-8492-4587-9393-1c2a051ba1eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GangesSRPStarter/model/DataStorage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GangesSRPStarter/out/.idea/starter.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GangesSRPStarter/model/Purchase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GangesSRPStarter/GangesSRPStarter.iml" afterPath="$PROJECT_DIR$/GangesSRPStarter/GangesSRPStarter.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java" afterPath="$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GangesSRPStarter/out/GangesSRPStarter.iml" afterPath="$PROJECT_DIR$/GangesSRPStarter/out/GangesSRPStarter.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,9 +30,32 @@
       <file leaf-file-name="GangesServiceManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="-195">
+              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding>
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1620#1621#0" expanded="true" />
+                <element signature="e#1888#1889#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Purchase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/Purchase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,9 +63,10 @@
       <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="86">
+              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding>
+                <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
@@ -82,6 +103,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/GangesSRPStarter/test/GangesServiceManagerTest.java" />
         <option value="$PROJECT_DIR$/GangesSRPStarter/model/DataStorage.java" />
+        <option value="$PROJECT_DIR$/GangesSRPStarter/model/Purchase.java" />
         <option value="$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java" />
       </list>
     </option>
@@ -440,17 +462,19 @@
       <option name="presentableId" value="Default" />
       <updated>1510012294746</updated>
       <workItem from="1513077408736" duration="374000" />
-      <workItem from="1513077923830" duration="494000" />
+      <workItem from="1513077923830" duration="1534000" />
     </task>
+    <task id="LOCAL-00001" summary="Added a DataStorage class">
+      <created>1513078436656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513078436656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GangesServiceManagerTest - 2017.11.06 at 16h 02m 16s.xml">
-      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 19m 13s.xml">
-      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 30m 34s.xml">
       <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
     </history-entry>
@@ -463,13 +487,30 @@
     <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 33m 29s.xml">
       <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 34m 40s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 40m 23s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 44m 50s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 45m 59s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 47m 12s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GangesServiceManagerTest - 2017.12.12 at 12h 50m 54s.xml">
+      <configuration name="GangesServiceManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="868000" />
+    <option name="totallyTimeSpent" value="1908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1295" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -539,6 +580,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a DataStorage class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a DataStorage class" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -563,6 +608,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
+            <element signature="e#147#148#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
@@ -574,7 +620,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,6 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -596,6 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -662,6 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,6 +736,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,6 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,6 +822,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,9 +859,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/DataStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="86">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
+            <element signature="e#147#148#0" expanded="true" />
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#249#250#0" expanded="true" />
             <element signature="e#303#304#0" expanded="true" />
@@ -806,11 +870,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/Purchase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GangesSRPStarter/model/GangesServiceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="-195">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
